@@ -4,7 +4,6 @@
 //pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 //pigIt('Hello world !');     // elloHay orldway !
 
-
 #include <iostream>
 #include <vector>
 
@@ -44,12 +43,6 @@ std::string pig_it(std::string str)
 		ans.push_back(' ');
 	}
 	ans.pop_back();
-	std::cout << ans << std::endl;
+	// std::cout << ans << std::endl;
 	return ans;
-}
-
-int main(int argc, char * argv[])
-{
-	pig_it("O tempora o mores !");
-	return 0;
 }
