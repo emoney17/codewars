@@ -9,8 +9,6 @@
 
 // result = 61000
 
-
-
 int past(int h, int m, int s) {
   // your code here
     int total {0};
