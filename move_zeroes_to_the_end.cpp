@@ -26,9 +26,3 @@ std::vector<int> move_zeroes(const  std::vector<int> & input)
 	// for(auto i : move) std::cout << i << ' '; std::cout << '\n';
 	return move;
 }
-
-int main(int argc, char * argv[])
-{
-	move_zeroes({0, 12, -19, -2, -8, 11, -17, -7, -12, 9, 8, -3, 2, -18, 12, 18, 20, 3, -16, -14, 2, 1, -20, 5, 13, -6, -19, 12, 1, 13, 0, 0, 7, -8, 9, 1});
-	return 0;
-}
