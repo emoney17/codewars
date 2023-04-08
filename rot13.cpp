@@ -42,11 +42,3 @@ std::string rot13(const std::string & str)
 	std::cout << ans << '\n';
 	return ans;
 }
-
-int main(int argc, char * argv[])
-{
-	char c = 109;
-	// std::cout << c << '\n';
-	rot13("This is my first ROT13 excercise!");
-	return 0;
-}
