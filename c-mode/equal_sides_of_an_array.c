@@ -18,18 +18,9 @@ int find_even_index(const int * arr, int size)
 		for (int j = i+1; j < size; j++) {
 			right += arr[j];
 		}
-		if (right == left) {
-			printf("%d", i);
+		if (right == left)
 			return i;
-		}
 		right = left = 0;
 	}
 	return -1;
-}
-
-int main(void)
-{
-	int arr[] = {1,100,50,-51,1,1};
-	find_even_index(arr, sizeof(arr)/sizeof(arr[0]));
-	return 0;
 }
