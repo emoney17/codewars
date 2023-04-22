@@ -36,8 +36,3 @@ bool alphanumeric(const char *str) {
 	printf("true\n");
 	return true;
 }
-
-// 1 = true 0 = false
-int main() {
-	alphanumeric("");
-}
